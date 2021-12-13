@@ -1,4 +1,4 @@
-#include "libbmp.c"
+#include "libbmp.h"
 #include <stdio.h>
 int matchindex = 0, match = 0;
 int width_match_index(bmp_pixel **smallpx, bmp_pixel **bigpx, int smallwidth, int bigwidth, int sline, int bline, int index)
