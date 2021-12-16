@@ -7,4 +7,4 @@ C code to find coordinates of sub image in a full image. (works on bmp files usi
 Just compile subimage.c and libbmp.c using any standard c99 compiler. Only standard C libraries used.
 
 # to-do
-Need to reduce matching time using algorithm. Learining it now.
+Need to reduce matching time using good matching algorithm. Learining it now.
