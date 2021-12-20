@@ -38,7 +38,6 @@ int main()
         bmp_img_read(&subimg, "sub_image.bmp");
         bigpx = fullimg.img_pixels;
         smallpx = subimg.img_pixels;
-        printf("%d ", smallpx[0][9].red);
         int smallwidth = subimg.img_header.biWidth;
         int smallheight = subimg.img_header.biHeight;
         int bigwidth = fullimg.img_header.biWidth;
